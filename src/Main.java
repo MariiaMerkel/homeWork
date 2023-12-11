@@ -79,15 +79,10 @@ public class Main {
 
         // task 7
         int one = 123;
-        int two = 789;
-        int three = 456;
+        int two = 456;
+        int three = 789;
 
-        String outString = String.valueOf(
-                one > two? one > three?  one
-                : two > three? two
-                    : three
-                : two > three? two
-                    : three);
+        String outString = String.valueOf(one > two && one > three?  one : two > three? two : three);
         System.out.println(outString);
 
     }
