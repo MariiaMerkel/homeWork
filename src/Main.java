@@ -31,5 +31,6 @@ public class Main {
         } else {
             System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxMonthlyPayment+ " рублей. Платеж по кредиту " + monthlyPayment + " рублей. Отказано");
         }
+
     }
 }
