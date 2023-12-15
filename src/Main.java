@@ -53,6 +53,7 @@ public class Main {
         // task 6.0
         double x = 0.40, y = 0.87;
         double intermediateResult = 11*x + y;
+        System.out.printf("\n\nРезультат вычислений равен : %.15f", intermediateResult);
         double result = (x+10*y)- 15*(x/y);
         System.out.printf("\n\nРезультат вычислений равен : %.15f", result);
 
